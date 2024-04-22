@@ -8,7 +8,7 @@ function ParticipantItem({name,src,title,about}) {
                 <p className='font-bold'>{name}</p>
                 <p className='italic'>{title}</p>
                 <p>{about}  <Link to='/participants'>
-                <span> Daha etraflı...</span>
+                <span className='daha'> Daha etraflı...</span>
                 </Link>
                 </p>
 

@@ -21,8 +21,12 @@
 
   .festival-container {
  
-    background: rgb(153,58,58);
-    background: linear-gradient(135deg, rgba(153,58,58,1) 12%, rgba(205,200,194,1) 50%, rgba(52,43,32,1) 84%, rgba(24,14,2,1) 100%); }
+    background-image: url('../images/gencefilar.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(100%);
+  }
 
 
 .festival-title{

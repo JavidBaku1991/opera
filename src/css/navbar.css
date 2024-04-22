@@ -1,8 +1,9 @@
 .navbar{
-    height: 10vh;
+    height: 12vh;
     width: 100vw;
     position: fixed;
-    background-color: transparent;
+    /* background-color:white; */
+    border-radius: 0%;
     display: flex;
    justify-content: space-around;
    z-index: 1000;
@@ -10,7 +11,7 @@ transition: all .4S;
 
 }
 .navbar.scrolled{
-  background-color: white;
+  background-color: transparent;
   position: sticky;
   top: 0;
   width: 100%;
@@ -19,7 +20,7 @@ transition: all .4S;
 }
 
 .icon{
-  color: var(--primary);
+  color: black;
 }
 
 .logo{
@@ -36,7 +37,7 @@ transition: all .4S;
 .navbar-link{
     width: 170px;
     margin: auto;
-    color: var(--primary);
+    color: black;
     font-size: large;
     height: 30px;
     background-color: transparent;

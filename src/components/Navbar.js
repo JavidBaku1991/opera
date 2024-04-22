@@ -43,7 +43,7 @@ function Navbar
 
 
   return (
-    <div className={scrolling ? 'navbar scrolled' : 'navbar'}>
+    <div className={scrolling ? 'navbar scrolled glass ' : 'navbar glass'}>
         <div className='flex'>
          
                     <div className='flex  justify-center align-middle w-20 h-20 -mt-1'>

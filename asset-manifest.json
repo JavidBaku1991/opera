@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/opera/static/css/main.9346a95b.css",
-    "main.js": "/opera/static/js/main.17846557.js",
+    "main.css": "/opera/static/css/main.cf6964d9.css",
+    "main.js": "/opera/static/js/main.dcd8e1ee.js",
     "static/media/viva.png": "/opera/static/media/viva.71abe4505f41c3045696.png",
     "static/media/genc.png": "/opera/static/media/genc.5afd033bc5d19caa94eb.png",
     "static/media/genceopera.png": "/opera/static/media/genceopera.6427b968e393932024a4.png",
@@ -18,6 +18,7 @@
     "static/media/01.png": "/opera/static/media/01.730f73707967bd8752bb.png",
     "static/media/programme.pdf": "/opera/static/media/programme.5574e230b9e68a8bead1.pdf",
     "static/media/uzunkarmen.jpg": "/opera/static/media/uzunkarmen.bb332164f47077213004.jpg",
+    "static/media/gencefilar.jpg": "/opera/static/media/gencefilar.72f2ac9d5ca8e4cfb5e9.jpg",
     "static/media/media1.jpg": "/opera/static/media/media1.3df79135874bfd94c054.jpg",
     "static/media/filar.png": "/opera/static/media/filar.0adb4a05dce7635df6fa.png",
     "static/media/mtn.png": "/opera/static/media/mtn.ded016ac938f58e48776.png",
@@ -26,11 +27,11 @@
     "static/media/gulnaz.jpg": "/opera/static/media/gulnaz.e05aeb4c13b38d668997.jpg",
     "static/media/mugam.png": "/opera/static/media/mugam.57dc772d8cc71a0efabf.png",
     "index.html": "/opera/index.html",
-    "main.9346a95b.css.map": "/opera/static/css/main.9346a95b.css.map",
-    "main.17846557.js.map": "/opera/static/js/main.17846557.js.map"
+    "main.cf6964d9.css.map": "/opera/static/css/main.cf6964d9.css.map",
+    "main.dcd8e1ee.js.map": "/opera/static/js/main.dcd8e1ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.9346a95b.css",
-    "static/js/main.17846557.js"
+    "static/css/main.cf6964d9.css",
+    "static/js/main.dcd8e1ee.js"
   ]
 }

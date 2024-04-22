@@ -1,0 +1,39 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url("css//home.css");
+@import url("css//footer.css");
+@import url("css//navbar.css");
+@import url("css//media.css");
+@import url("css//festival.css");
+@import url("css//participants.css");
+
+
+
+
+
+:root {
+    --primary: rgb(122, 22, 22);
+    --secondary: #6c757d;
+    --background: #f8f9fa;
+    --text-color: #212529;
+  }
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body{
+    overflow-x:  hidden;
+    font-family: 'Oswald',sans-serif;
+    
+  }
+
+
+  
+

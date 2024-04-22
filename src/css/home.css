@@ -1,0 +1,358 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+.afish-container{
+  font-family: 'Oswald', sans-serif;
+
+
+}
+
+
+.home-container{
+  background-image: url('../images/operabalet.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(70%);
+}
+
+.hero-video-container {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Adjust height as needed */
+    overflow: hidden;
+    filter: brightness(70%);
+  z-index: -100;
+  border-bottom: 3px solid white;
+
+  }
+  
+  .hero-video-container video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    height: 100vh;
+    object-fit: cover; /* Ensure the video covers the entire container */
+  }
+
+
+
+
+
+.button-13 {
+  position: absolute;
+  z-index: 1000;
+  left:100px;
+  bottom: 70px;
+  touch-action: manipulation;
+  /* background: none; */
+  border-width: 4px 12px;
+  border-style: solid;
+  border-color: transparent;
+  padding: 8px 64px;
+  text-align: center;
+  color: #fff;
+  transition-property: transform;
+  transition-duration: 0.4s;
+}
+
+
+.button-13:active {
+  transform: scale(0.92);
+}
+
+.button-13-background {position: absolute;
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  clip-path: polygon(12px 0, calc(100% - 12px) 0%, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0% calc(100% - 12px), 0% 12px);
+  background-color: saddlebrown;
+  background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.8)), linear-gradient(to bottom, #af6a65, calc(12.5% - 1px), #cfa381, #88312b calc(12.5% + 1px) 50%, #601d2c 50% calc(87.5% - 1px), #994021, #341227 calc(87.5% + 1px));
+  transition-property: filter;
+  transition-duration: 0.2s;
+  will-change: filter;
+}
+
+.button-13 .text {
+  background: linear-gradient(180deg, #FFE5C2 1%, #CDAF87 100%), #FFFFFF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  z-index: 3;
+  position: relative;
+}
+
+@media (hover: hover) {
+  .button-13:hover .button-13-background {
+    filter: brightness(0.8);
+  }
+}
+
+.button-13:active .button-13-background {
+  filter: brightness(0.6);
+}
+
+.button-13-border {
+  position: absolute;
+  z-index: 1;
+  inset: -4px -12px;
+}
+
+@supports (-webkit-mask-box-image: inherit) or (mask-border: inherit) {
+  .button-13-border {
+    background-image: linear-gradient(to bottom, #bb9d7a 50%, #806d56 50%);
+    -webkit-mask-box-image-source: url("https://csspro.com/css-3d-buttons/buttons-img/baldurs-gate-3-border.svg");
+    -webkit-mask-box-image-slice: 15 23;
+    -webkit-mask-box-image-width: 15px 23px;
+    -webkit-mask-box-image-repeat: repeat;
+    mask-border-source: url("https://csspro.com/css-3d-buttons/buttons-img/baldurs-gate-3-border.svg");
+    mask-border-slice: 15 23;
+    mask-border-width: 15px 23px;
+    mask-border-repeat: repeat;
+  }
+}
+
+@supports not ((-webkit-mask-box-image: inherit) or (mask-border: inherit)) {
+  .button-13-border {
+    border-width: 15px 23px;
+    border-style: solid;
+    border-color: transparent;
+    border-image-source: url("https://csspro.com/css-3d-buttons/buttons-img/baldurs-gate-3-border-inverted.svg");
+    border-image-slice: 15 23;
+    border-image-width: 15px 23px;
+    border-image-repeat: repeat;
+    background-image: linear-gradient(#000, #000), linear-gradient(to bottom, #bb9d7a 50%, #806d56 50%);
+    background-origin: content-box, border-box;
+    background-repeat: no-repeat;
+    filter: url("#remove-black-button-13");
+  }
+}
+
+
+
+
+/* button14 */
+
+
+.button-14 {
+  position: absolute;
+  z-index: 1000;
+  left:350px;
+  bottom: 70px;
+  touch-action: manipulation;
+  background: none;
+  border-width: 4px 12px;
+  border-style: solid;
+  border-color: transparent;
+  padding: 8px 64px;
+  text-align: center;
+  color: #fff;
+  transition-property: transform;
+  transition-duration: 0.4s;
+}
+
+
+.button-14:active {
+  transform: scale(0.92);
+}
+
+.button-14-background {position: absolute;
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  clip-path: polygon(12px 0, calc(100% - 12px) 0%, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0% calc(100% - 12px), 0% 12px);
+  background-color: saddlebrown;
+  background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.8)), linear-gradient(to bottom, #af6a65, calc(12.5% - 1px), #cfa381, #88312b calc(12.5% + 1px) 50%, #601d2c 50% calc(87.5% - 1px), #994021, #341227 calc(87.5% + 1px));
+  transition-property: filter;
+  transition-duration: 0.2s;
+  will-change: filter;
+}
+
+.button-14 .text {
+  background: linear-gradient(180deg, #FFE5C2 1%, #CDAF87 100%), #FFFFFF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  z-index: 3;
+  position: relative;
+}
+
+@media (hover: hover) {
+  .button-14:hover .button-13-background {
+    filter: brightness(0.8);
+  }
+}
+
+.button-14:active .button-13-background {
+  filter: brightness(0.6);
+}
+
+.button-14-border {
+  position: absolute;
+  z-index: 1;
+  inset: -4px -12px;
+}
+
+@supports (-webkit-mask-box-image: inherit) or (mask-border: inherit) {
+  .button-14-border {
+    background-image: linear-gradient(to bottom, #bb9d7a 50%, #806d56 50%);
+    -webkit-mask-box-image-source: url("https://csspro.com/css-3d-buttons/buttons-img/baldurs-gate-3-border.svg");
+    -webkit-mask-box-image-slice: 15 23;
+    -webkit-mask-box-image-width: 15px 23px;
+    -webkit-mask-box-image-repeat: repeat;
+    mask-border-source: url("https://csspro.com/css-3d-buttons/buttons-img/baldurs-gate-3-border.svg");
+    mask-border-slice: 15 23;
+    mask-border-width: 15px 23px;
+    mask-border-repeat: repeat;
+  }
+}
+
+@supports not ((-webkit-mask-box-image: inherit) or (mask-border: inherit)) {
+  .button-14-border {
+    border-width: 15px 23px;
+    border-style: solid;
+    border-color: transparent;
+    border-image-source: url("https://csspro.com/css-3d-buttons/buttons-img/baldurs-gate-3-border-inverted.svg");
+    border-image-slice: 15 23;
+    border-image-width: 15px 23px;
+    border-image-repeat: repeat;
+    background-image: linear-gradient(#000, #000), linear-gradient(to bottom, #bb9d7a 50%, #806d56 50%);
+    background-origin: content-box, border-box;
+    background-repeat: no-repeat;
+    filter: url("#remove-black-button-13");
+  }
+}
+/*  */
+
+
+
+
+
+.social-icons{
+  background-color: #806d56;
+}
+
+
+
+
+/* Custom styles for Splide arrows */
+.splide__arrow--prev, .splide__arrow--next {
+  background-color: #b1a3a3; /* Change to your desired color */
+  color: #0b0606; /* Change to your desired color */
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slider-image{
+  -webkit-box-shadow: -1px -1px 19px 5px rgba(255, 255, 255, 0.75);
+-moz-box-shadow: -1px -1px 19px 5px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 19px 5px rgba(224, 223, 223, 0.75);
+margin: 60px;
+transition: all .5s;
+}
+
+.slider-image:hover{
+  transform:translateY(-5%);
+}
+
+
+.mail{
+background-color:transparent;
+}
+
+.glass{
+  background: rgba(255, 255, 255, 0.48);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.5px);
+-webkit-backdrop-filter: blur(6.5px);
+}
+
+
+
+.mail-sol{
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.48);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.5px);
+-webkit-backdrop-filter: blur(6.5px);
+}
+ 
+.contact-line{
+  position: absolute;
+  background-color: beige;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid rgb(167, 167, 167) ;
+  position: relative;
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+  align-items: center;
+}
+
+.span{
+  position: relative;
+}
+
+.contact-hr{
+  position: relative;
+  display: flex;
+  width: 400px;
+  display: flex;
+  margin: 0 auto;
+  top:20px;
+  z-index: -1;
+
+}
+
+
+
+.send-button{
+    border: 1px solid rgb(185, 175, 175);
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+  transition: all .3s;
+}
+.send-button:hover{
+  background: rgba(255, 255, 255, 0.48);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+}
+
+.send-button:active{
+  background-color :var(--primary);
+}
+
+.proqram{
+  position: relative;
+  margin-left: 300px;
+}
+
+
+
+
+
+.control{
+width: 80%;}
+
+.leaflet-container{
+  width: 40vw;
+  height: 80vh;
+  align-self: center;
+
+}

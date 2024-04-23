@@ -324,7 +324,7 @@ backdrop-filter: blur(6.5px);
     border: 1px solid rgb(185, 175, 175);
     padding: 10px;
     border-radius: 10px;
-    width: 50%;
+    width: 100%;
   transition: all .3s;
 }
 .send-button:hover{

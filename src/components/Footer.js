@@ -42,7 +42,7 @@ import { Link } from 'react-router-dom';
               visible: { opacity: 1, x: 0 },
             }} >
         {/* <img  src={Logo} className='footer-logo' alt='image'/> */}
-        <Box sx={{display:'flex',flexDirection:'column'}} className='mr-14 '> 
+        <Box sx={{display:'flex',flexDirection:'column',marginRight:'80px'}} className='mr-14 '> 
             
               <h3 className='footer-info'><PhoneAndroidIcon  className='footer-icon' />+(994)50 510 30 20 </h3>
               <h3 className='footer-info'>  <MarkEmailReadIcon className='footer-icon'/>  example@mail.ru </h3>

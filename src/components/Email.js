@@ -41,7 +41,7 @@ function Email() {
       <div className='p-2 flex flex-row mail'>
         <div className='w-1/2'>
           <form onSubmit={sendEmail}>
-            <FormGroup className='flex-col mail-sol' sx={{ margin: '30px', justifyContent: 'center', alignItems: 'center', padding: '30px' }}>
+            <FormGroup className='flex-col mail-sol' sx={{ margin: '20px',padding: '30px' }}>
               <FormControl >
                 <TextField
                   type='text'
@@ -60,7 +60,7 @@ function Email() {
                 />
               </FormControl>
 
-              <FormControl sx={{ margin: '20px' }}>
+              <FormControl sx={{ margin: '5px' }}>
                 <TextField
                   label='Email'
                   type='email'
@@ -77,7 +77,7 @@ function Email() {
                 />
               </FormControl>
 
-              <FormControl sx={{ margin: '20px' }}>
+              <FormControl sx={{ margin: '5px' }}>
                 <TextField
                   label='Əlaqə'
                   type='number'
@@ -94,7 +94,7 @@ function Email() {
                   }}
                 />
               </FormControl>
-              <FormControl className='control'>
+              <FormControl >
                 <TextField
                   id='my-textarea'
                   label='Mesaj'

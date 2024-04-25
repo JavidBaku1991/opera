@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Typography, FormControl, TextField, Button, FormGroup } from '@mui/material';
 import emailjs from 'emailjs-com';
-import { ToastContainer, toast } from 'react-toastify'; // Import toast components
 import 'react-toastify/dist/ReactToastify.css'; // Import toast styles
 import LeafletMap from './LeafletMap';
 import ContactLine from './ContactLine';
@@ -35,13 +34,12 @@ function Email() {
 
   return (
     <>
-       <ToastContainer className='right-2 bottom-3'/> 
 
        <ContactLine  title='ƏLAQƏ'/>
-      <div className='p-2 flex flex-row mail'>
-        <div className='w-1/2'>
+      <div className=' flex flex-col mail sm:flex-row'>
+        <div className='w-full'>
           <form onSubmit={sendEmail}>
-            <FormGroup className='flex-col mail-sol' sx={{ margin: '20px',padding: '30px' }}>
+            <FormGroup className='flex-col glass' sx={{ margin: '20px',padding: '30px' }}>
               <FormControl >
                 <TextField
                   type='text'
@@ -118,10 +116,14 @@ function Email() {
           </form>
         </div>
 
-        <div className='w-1/2 flex flex-col justify items-center m-10'>
+        <div className=' w-full flex flex-col justify items-center m-5'>
           <h2 className='text-lg font-extrabold'> Fidan Hacıyeva </h2>
           <h4 className='text-lg font-extrabold'>Vokal Musiqi Məktəbi </h4>
+          
+          <div className='w-full '>
           <LeafletMap />
+          </div>
+          
         </div>
       </div>
     </>

@@ -10,7 +10,7 @@ import {Icon} from 'leaflet'
 
 
   return (
-    <div className='leaflet-container'>
+    <div className='sm:w-full'>
          <MapContainer center={[40.3784333,49.8472423]} zoom={16}>
    <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

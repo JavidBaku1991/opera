@@ -5,7 +5,6 @@
     /* background-color:white; */
     border-radius: 0%;
     display: flex;
-   justify-content: space-around;
    z-index: 1000;
 transition: all .4S;
 
@@ -21,14 +20,28 @@ transition: all .4S;
 
 .icon{
   color: black;
+  transition: all 1s;
+}
+
+
+.icon:hover{
+  transform: scale(1.2);
 }
 
 .logo{
-    z-index: 9;
+    margin-right: 40px;
+  z-index: 9;
     width: 7vw;
     z-index: 1000;
+    transition: all 1s;
+    animation: scale 1s infinite alternate; 
+
 }
 
+
+.logo:hover{
+  transform: scale(1.05);
+}
 
 
 
@@ -61,7 +74,7 @@ transition: all .4S;
 
 .social-icons{
   z-index: 100;
-  width: 30vw;
+  width: 40vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -70,8 +83,34 @@ transition: all .4S;
 }
 
 
+.sidebar{
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.48);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+}
 
-.navlink:hover{
-  transform: scale(1.2);
 
+.upbar-link{
+  transition: all .6s;
+}
+
+.upbar-link:hover{
+    transform: scale(1.05);
+}
+
+
+
+@keyframes scale {
+  0% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(1.1);
+  }
 }

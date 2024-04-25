@@ -1,0 +1,17 @@
+.photos-container{
+    background-image: url('../images/operabalet.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.photo{
+    transition: all .7s;
+}
+
+
+.photo:hover{
+    transform: perspective(21cm) rotateY(30deg);
+    
+}

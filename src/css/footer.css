@@ -1,13 +1,9 @@
-.footer-container{
-    width: 100vw;
-  
-}
 
 
 
 .footer{
 width: 100vw;
- height: 240px;
+ height: 290px;
 background-color:var(--primary);
 color: rgb(255, 255, 255);
 display: flex;
@@ -19,7 +15,7 @@ background: linear-gradient(135deg, rgba(153,58,58,1) 0%, rgba(93,20,20,1) 45%, 
 }
 
 .footer-up{
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 
 .footer-logo{
@@ -40,20 +36,9 @@ background: linear-gradient(135deg, rgba(153,58,58,1) 0%, rgba(93,20,20,1) 45%, 
 
 
 
-.rights{
-    position: relative;
-    margin: 7px auto;
-    background-color: var(--tertiary-black);
-}
 
-.rights-info{
-    font-size: 20px;
-    font-family:'Times New Roman', Times, serif;   
-    color: var(--bronze1);
-    justify-content: center;
-    align-items: center;
 
-}
+
 
 .footer-icon{
     position: relative;

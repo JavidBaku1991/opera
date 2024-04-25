@@ -14,15 +14,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  filter: brightness(70%);
+  filter: brightness(100%);
 }
 
 .hero-video-container {
     position: relative;
-    width: 100%;
-    height: 100%; /* Adjust height as needed */
+    width: 100vw;
+    height: 100vh; /* Adjust height as needed */
     overflow: hidden;
     filter: brightness(70%);
+     
   z-index: -100;
   border-bottom: 3px solid white;
 
@@ -38,14 +39,14 @@
   }
 
 
-
+ 
 
 
 .button-13 {
   position: absolute;
   z-index: 1000;
   left:100px;
-  bottom: 70px;
+  bottom: 100px;
   touch-action: manipulation;
   /* background: none; */
   border-width: 4px 12px;
@@ -140,8 +141,8 @@
 .button-14 {
   position: absolute;
   z-index: 1000;
-  left:350px;
-  bottom: 70px;
+  left:100px;
+  bottom: 200px;
   touch-action: manipulation;
   background: none;
   border-width: 4px 12px;
@@ -253,10 +254,14 @@
   transition: background-color 0.3s ease;
 }
 
-.slider-image{
+.box-shadow{
   -webkit-box-shadow: -1px -1px 19px 5px rgba(255, 255, 255, 0.75);
--moz-box-shadow: -1px -1px 19px 5px rgba(0,0,0,0.75);
-box-shadow: -1px -1px 19px 5px rgba(224, 223, 223, 0.75);
+  -moz-box-shadow: -1px -1px 19px 5px rgba(0,0,0,0.75);
+  box-shadow: -1px -1px 19px 5px rgba(224, 223, 223, 0.75);
+}
+
+.slider-image{
+ 
 margin: 60px;
 transition: all .5s;
 }
@@ -280,14 +285,7 @@ backdrop-filter: blur(6.5px);
 
 
 
-.mail-sol{
-/* From https://css.glass */
-background: rgba(255, 255, 255, 0.48);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(6.5px);
--webkit-backdrop-filter: blur(6.5px);
-}
+
  
 .contact-line{
   position: absolute;
@@ -351,8 +349,23 @@ backdrop-filter: blur(6.5px);
 width: 80%;}
 
 .leaflet-container{
-  width: 40vw;
-  height: 80vh;
+  /* width: 40vw; */
+  height: 90vh;
+/* width: 500px; */
   align-self: center;
 
+}
+
+
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

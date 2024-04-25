@@ -23,7 +23,7 @@ function HeroButton() {
 
   
   return (
-    <>
+    <div className='hero-buttons'>
       <a href='https://iticket.az/events/i-international-opera-festival-of-fidan-hajiyeva'>
        <button  className="button-13" 
        >
@@ -41,7 +41,11 @@ function HeroButton() {
       </filter>
     </svg>
       </button>
+    
+    
     </a>
+
+
        <button  className="button-14"  onClick={()=>{downloadFile(programme)}}>
     <span className="text">Proqram</span>
     <span className="button-14-background"></span>
@@ -59,7 +63,7 @@ function HeroButton() {
       </button>
 
     
-    </>
+    </div>
   
  
     )

@@ -25,10 +25,10 @@ function Afish() {
       <Splide aria-label="My Favorite Images"
         options={{
           // rewind: true,
-          width: 1060,
+          width: '90%',
           height:550,
           margin:'20px',
-          paddin:'20px',
+          padding:'20px',
           gap: '1rem',
           type: 'loop',
           drag: 'free',
@@ -40,6 +40,18 @@ function Afish() {
           arrows: {
             prev: '<button class="splide__arrow splide__arrow--prev">jkl</button>',
             next: '<button class="splide__arrow splide__arrow--next">Next</button>',
+          },
+          breakpoints: {
+            480:{
+              perPage: 1,
+
+            },
+            730: {
+              perPage: 2,
+            },
+            1200: {
+              perPage: 3,
+            },
           },
         }}
       >

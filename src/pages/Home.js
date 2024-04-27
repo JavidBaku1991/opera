@@ -23,11 +23,14 @@ const Home = () => {
                 <source src={herovideo} type="video/mp4" />
               </video>
               
-         
-          </div>
-     
-    
+          
     <HeroButton/>
+           <h1 className='uppercase hero-title '>I Beynəlxalq opera festivalı</h1>
+
+    
+          </div>
+    
+   
     
       </section>
   

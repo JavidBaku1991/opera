@@ -15,6 +15,7 @@
   background-size: cover;
   background-attachment: fixed;
   filter: brightness(100%);
+  text-shadow: 4px 3px 14px rgba(255,255,255,0.6);
 }
 
 .hero-video-container {
@@ -22,9 +23,9 @@
     width: 100vw;
     height: 100vh; /* Adjust height as needed */
     overflow: hidden;
-    filter: brightness(70%);
+    filter: brightness(100%);
      
-  z-index: -100;
+  z-index: 1;
   border-bottom: 3px solid white;
 
   }
@@ -36,9 +37,22 @@
     
     height: 100vh;
     object-fit: cover; /* Ensure the video covers the entire container */
+    filter: brightness(30%);
+
   }
 
 
+
+  .hero-title{
+position: absolute;
+background-color: transparent; 
+top:100px;
+left: 50%;
+transform: translateX(-50%);
+color: #ffdc51;
+font-weight: 700;
+font-size:3rem;
+}
  
 
 
@@ -142,7 +156,7 @@
   position: absolute;
   z-index: 1000;
   left:100px;
-  bottom: 200px;
+  bottom: 160px;
   touch-action: manipulation;
   background: none;
   border-width: 4px 12px;
@@ -368,4 +382,10 @@ width: 80%;}
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (min-width: 450px){
+  .hero-title{
+    font-size: 3rem;
+  }
 }

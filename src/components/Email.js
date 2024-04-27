@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Typography, FormControl, TextField, Button, FormGroup } from '@mui/material';
 import emailjs from 'emailjs-com';
-import 'react-toastify/dist/ReactToastify.css'; // Import toast styles
 import LeafletMap from './LeafletMap';
 import ContactLine from './ContactLine';
 import { useNavigate } from 'react-router';
@@ -24,11 +23,9 @@ function Email() {
         setEmail('');
         setNumber('');
         setText('');
-        toast.success('Email sent successfully!'); // Show success toast
       })
       .catch((err) => {
         console.log(err);
-        toast.error('Error sending email.'); // Show error toast
       });
   };
 
@@ -116,7 +113,7 @@ function Email() {
           </form>
         </div>
 
-        <div className=' w-full flex flex-col justify items-center m-5'>
+        <div className=' w-full flex flex-col justify items-center mb-2 p-3'>
           <h2 className='text-lg font-extrabold'> Fidan Hacıyeva </h2>
           <h4 className='text-lg font-extrabold'>Vokal Musiqi Məktəbi </h4>
           

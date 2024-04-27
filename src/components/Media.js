@@ -11,45 +11,23 @@ import inara from '../images/inara.jpg';
 import { Link } from 'react-router-dom';
 
 function Media() {
-  const [sliderWidth, setSliderWidth] = useState(1100);
 
-  useEffect(() => {
-    const handleResize = () => {
-      // Update slider width based on viewport size
-      const windowWidth = window.innerWidth;
-      if (windowWidth >= 1200) {
-        setSliderWidth(1200);
-      } else if (windowWidth >= 576) {
-        setSliderWidth(900);
-      } else {
-        setSliderWidth(windowWidth - 20);
-      }
-    };
-
-    // Initial call to set the initial slider width
-    handleResize();
-
-    // Add event listener for window resize
-    window.addEventListener('resize', handleResize);
-
-    // Remove event listener on component unmount
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
+ 
   return (
-    <div className='h-screen w-screen flex flex-col justify-center align-middle media-container'>
+    <div className='h-screen w-screen flex flex-col justify-center align-middle '>
       <ContactLine title='MEDİA XƏBƏRLƏRİ' />
       <div className='mt-6'>
         <Splide
           aria-label='My Favorite Images'
           options={{
-            width: sliderWidth,
+            width: '90%',
             height: 500,
             gap: '1rem',
             type: 'loop',
             drag: 'free',
             snap: true,
             perPage: 3,
+            autoplay: true, 
             perMove: 1,
             lazyLoad: 'nearby',
             arrows: {
@@ -57,11 +35,15 @@ function Media() {
               next: '<button class="splide__arrow splide__arrow--next">Next</button>',
             },
             breakpoints: {
-              576: {
+              480:{
                 perPage: 1,
+  
+              },
+              730: {
+                perPage: 2,
               },
               1200: {
-                perPage: 1,
+                perPage: 3,
               },
             },
           }}

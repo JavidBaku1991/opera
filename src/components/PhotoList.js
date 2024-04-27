@@ -4,16 +4,18 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 
-import men1 from '../images/uzunkarmen.jpg'
-import men2 from '../images/bag.jpg'
-import men4 from '../images/klassik.png'
-import men6 from '../images/media2.jpg'
-import men7 from '../images/genc.png'
-import men8 from '../images/gence.png'
-import men9 from '../images/gencefilar.jpg'
-import men10 from '../images/genceopera.png'
-import men11 from '../images/media1.jpg'
-import men12 from '../images/viva1.jpg'
+import photo1 from '../images/1.jpeg';
+import photo2 from '../images/2.jpeg'
+import photo3 from '../images/3.jpeg'
+import photo4 from '../images/4.jpeg'
+import photo5 from '../images/5.jpeg'
+import photo6 from '../images/6.jpeg'
+import photo7 from '../images/7.jpeg'
+import photo8 from '../images/8.jpeg'
+import photo9 from '../images/9.jpeg'
+import photo10 from '../images/10.jpeg'
+import photo11 from '../images/11.jpeg'
+import photo12 from '../images/12.jpeg'
 
 
 
@@ -46,45 +48,53 @@ const ImageListContainer =() =>{
 
 const itemData = [
   {
-    img: men1,
+    img: photo1,
     title: 'Bed',
   },
   {
-    img:men2,
+    img:photo2,
     title: 'Books',
   },
   {
-    img: men4,
+    img: photo3,
     title: 'Sink',
   },
 
   {
-    img: men6,
+    img: photo4,
     title: 'Blinds',
   }, {
-    img:men9,
+    img:photo5,
     title: 'Storage',
   },
   {
-    img: men7,
+    img: photo6,
     title: 'Chairs',
   },
   {
-    img:men8,
+    img:photo7,
     title: 'Laptop',
   },
 
   {
-    img:men10,
+    img:photo8,
     title: 'Coffee',
   },
  
   {
-    img: men12,
+    img: photo9,
     title: 'Candle',
   },
   {
-    img: men11,
+    img: photo10,
+    title: 'Candle',
+  },
+  {
+    img: photo11,
+    title: 'Candle',
+  },
+  {
+    img: photo12,
     title: 'Candle',
   },
  

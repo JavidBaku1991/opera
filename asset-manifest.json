@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/opera/static/css/main.728da96e.css",
-    "main.js": "/opera/static/js/main.abc29e47.js",
+    "main.css": "/opera/static/css/main.5e0eb598.css",
+    "main.js": "/opera/static/js/main.065a8fc4.js",
     "static/js/880.e926e95b.chunk.js": "/opera/static/js/880.e926e95b.chunk.js",
     "static/js/324.81dac440.chunk.js": "/opera/static/js/324.81dac440.chunk.js",
+    "static/js/950.c86f3875.chunk.js": "/opera/static/js/950.c86f3875.chunk.js",
     "static/js/580.9246a16f.chunk.js": "/opera/static/js/580.9246a16f.chunk.js",
-    "static/media/viva.png": "/opera/static/media/viva.71abe4505f41c3045696.png",
-    "static/media/genc.png": "/opera/static/media/genc.5afd033bc5d19caa94eb.png",
-    "static/media/genceopera.png": "/opera/static/media/genceopera.6427b968e393932024a4.png",
-    "static/media/gence.png": "/opera/static/media/gence.3afc90bb7ec232173826.png",
-    "static/media/varisler.png": "/opera/static/media/varisler.7c9cf928f8e403880dd6.png",
-    "static/media/klassik.png": "/opera/static/media/klassik.f629d397ac03f9a97c79.png",
-    "static/media/esas.png": "/opera/static/media/esas.3ee382529eea11947b9f.png",
-    "static/media/tedbirler.png": "/opera/static/media/tedbirler.bddc268fb3540fbc2faa.png",
     "static/media/video1.mp4": "/opera/static/media/video1.9a63207fa47aee75ca9d.mp4",
     "static/media/operabalet.jpg": "/opera/static/media/operabalet.48b2d4e062574eec507f.jpg",
-    "static/media/viva1.jpg": "/opera/static/media/viva1.529873bb0b694c43609f.jpg",
+    "static/media/tedbirler.png": "/opera/static/media/tedbirler.cf8b5718ca2e60b3d9fe.png",
+    "static/media/viva.png": "/opera/static/media/viva.cf8b5718ca2e60b3d9fe.png",
+    "static/media/varisler.png": "/opera/static/media/varisler.9a02e5c94a39cfa1953d.png",
+    "static/media/genc.png": "/opera/static/media/genc.07a0f832c99a3e01fb79.png",
+    "static/media/esas.png": "/opera/static/media/esas.bed359529776a0dd54f0.png",
+    "static/media/gence.png": "/opera/static/media/gence.d39de7dae1ba5a50d4db.png",
+    "static/media/klassik.png": "/opera/static/media/klassik.ff43fff8d375fe098fa3.png",
+    "static/media/viva1.jpg": "/opera/static/media/viva1.f28a1b75818dcc93858d.jpg",
+    "static/media/genceopera.png": "/opera/static/media/genceopera.4fcb0a105f4b6f3589ad.png",
     "static/media/bag.jpg": "/opera/static/media/bag.ae466672ff0fcb251826.jpg",
     "static/media/samir.jpg": "/opera/static/media/samir.f677026ff223941b5210.jpg",
     "static/media/logo.png": "/opera/static/media/logo.c9de281880b55ad442d0.png",
@@ -48,14 +49,15 @@
     "static/media/ferid.jpg": "/opera/static/media/ferid.bc147db4da89381200e4.jpg",
     "static/media/mugam.png": "/opera/static/media/mugam.57dc772d8cc71a0efabf.png",
     "index.html": "/opera/index.html",
-    "main.728da96e.css.map": "/opera/static/css/main.728da96e.css.map",
-    "main.abc29e47.js.map": "/opera/static/js/main.abc29e47.js.map",
+    "main.5e0eb598.css.map": "/opera/static/css/main.5e0eb598.css.map",
+    "main.065a8fc4.js.map": "/opera/static/js/main.065a8fc4.js.map",
     "880.e926e95b.chunk.js.map": "/opera/static/js/880.e926e95b.chunk.js.map",
     "324.81dac440.chunk.js.map": "/opera/static/js/324.81dac440.chunk.js.map",
+    "950.c86f3875.chunk.js.map": "/opera/static/js/950.c86f3875.chunk.js.map",
     "580.9246a16f.chunk.js.map": "/opera/static/js/580.9246a16f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.728da96e.css",
-    "static/js/main.abc29e47.js"
+    "static/css/main.5e0eb598.css",
+    "static/js/main.065a8fc4.js"
   ]
 }

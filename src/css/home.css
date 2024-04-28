@@ -395,10 +395,10 @@ width: 80%;}
 
 .preloader-img{
   position: relative;
-  top:200px;
+  top:150px;
   justify-self: center;
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
 }
 
 @media screen and (min-width: 450px){

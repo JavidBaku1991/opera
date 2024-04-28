@@ -11,7 +11,6 @@ import tedbirler from  '../images/tedbirler.png';
 import varisler from  '../images/varisler.png';
 import viva from  '../images/viva.png';
 import viva1 from  '../images/viva1.jpg';
-import { height, margin } from '@mui/system';
 import ContactLine from './ContactLine';
 
 function Afish() {

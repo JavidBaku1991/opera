@@ -38,7 +38,7 @@ function Navbar() {
 
  const Upbar=()=>{
   return (
-    <div className={scrolling ? 'navbar scrolled glass w-screen' : 'navbar glass '}>
+    <div className={`navbar ${scrolling ? 'scrolled' : ''} glass w-screen`}>
       <div className='flex items-center '>
         <div className='flex justify-center items-center w-20 h-20 -mt-1'>
           <Link to='/opera'>

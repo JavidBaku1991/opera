@@ -5,18 +5,22 @@ import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 
 import photo1 from '../images/1.jpeg';
-import photo2 from '../images/2.jpeg'
-import photo3 from '../images/3.jpeg'
-import photo4 from '../images/4.jpeg'
-import photo5 from '../images/5.jpeg'
-import photo6 from '../images/6.jpeg'
-import photo7 from '../images/7.jpeg'
-import photo8 from '../images/8.jpeg'
-import photo9 from '../images/9.jpeg'
-import photo10 from '../images/10.jpeg'
-import photo11 from '../images/11.jpeg'
-import photo12 from '../images/12.jpeg'
 
+
+import karmen1 from '../images/karmen/karmen1.jpg'
+import karmen2 from '../images/karmen/karmen2.jpg'
+import karmen3 from '../images/karmen/karmen3.jpg'
+import karmen4 from '../images/karmen/karmen4.jpg'
+import karmen5 from '../images/karmen/karmen5.jpg'
+import karmen6 from '../images/karmen/karmen6.jpg'
+import karmen7 from '../images/karmen/karmen7.jpg'
+import karmen8 from '../images/karmen/karmen8.jpg'
+import karmen9 from '../images/karmen/karmen9.jpg'
+import karmen11 from '../images/karmen/karmen11.jpg'
+import karmen12 from '../images/karmen/karmen12.jpg'
+import karmen13 from '../images/karmen/karmen13.jpg'
+import karmen14 from '../images/karmen/karmen14.jpg'
+import karmen15 from '../images/karmen/karmen15.jpg'
 
 
 
@@ -24,7 +28,7 @@ import photo12 from '../images/12.jpeg'
 
 const ImageListContainer =() =>{
   return (
-    <Box className='photoslist-container ' >
+    <Box className='photoslist-container mt-10' >
           <Box className='hero-photos' sx={{scrollbarWidth:'none'}}>
       <ImageList variant="masonry" cols={screenWidth?3:2} gap={20}>
         {itemData.map((item) => (
@@ -48,55 +52,72 @@ const ImageListContainer =() =>{
 
 const itemData = [
   {
-    img: photo1,
+    img: karmen1,
     title: 'Bed',
   },
   {
-    img:photo2,
+    img:karmen2,
     title: 'Books',
   },
   {
-    img: photo3,
+    img: karmen3,
     title: 'Sink',
   },
 
   {
-    img: photo4,
+    img: karmen4,
     title: 'Blinds',
   }, {
-    img:photo5,
+    img:karmen5,
     title: 'Storage',
   },
   {
-    img: photo6,
+    img: karmen6,
     title: 'Chairs',
   },
   {
-    img:photo7,
+    img:karmen7,
     title: 'Laptop',
   },
 
   {
-    img:photo8,
+    img:karmen8,
     title: 'Coffee',
   },
  
   {
-    img: photo9,
+    img: karmen9,
     title: 'Candle',
   },
   {
-    img: photo10,
+    img: karmen11,
     title: 'Candle',
   },
   {
-    img: photo11,
+    img: karmen11,
     title: 'Candle',
   },
   {
-    img: photo12,
+    img: karmen12,
     title: 'Candle',
   },
+  {
+    img: karmen13,
+    title: 'Bed',
+  },
+  {
+    img: karmen14,
+    title: 'Bed',
+  },
+  {
+    img: karmen15,
+    title: 'Bed',
+  },
+  {
+    img:photo1,
+    title: 'Books',
+  },
+  
  
 ];
 

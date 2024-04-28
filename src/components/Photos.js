@@ -10,9 +10,13 @@ function Photos() {
     <div className='photos-container'>
      <Navbar />
    
-    <div className='m-3 '> 
+    <div className='ml-3 mr-3 '> 
      
       
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     <br/>
     <br/>
     <ContactLine  title='Şəkillər' />

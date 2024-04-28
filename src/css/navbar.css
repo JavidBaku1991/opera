@@ -1,22 +1,24 @@
-.navbar{
-    height: 12vh;
-    width: 100vw;
-    /* position: fixed; */
-    /* background-color:white; */
-    border-radius: 0%;
-    display: flex;
-   z-index: 1000;
-transition: all .4S;
-
+.navbar {
+  height: 12vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  z-index: 1000;
+  position: absolute;
+  transition: background-color 0.4s, transform 0.4s; /* Added transform for hardware acceleration */
 }
-.navbar.scrolled{
+
+.navbar.scrolled {
   background-color: transparent;
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   height: 80px;
-
+  transform: translateY(0); /* Hardware accelerated transform */
 }
+
+
+
 
 .icon{
   color: black;

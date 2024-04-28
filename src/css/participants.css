@@ -15,7 +15,7 @@
     transform: scale(1.05);
 }
 
-.diger{
+.scaling{
     transition: all .8s;
     animation: scale 1s infinite alternate; 
 }

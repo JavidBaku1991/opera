@@ -48,7 +48,7 @@ const YourAccordionComponent = ({ src, name, title, about }) => {
         <div className='flex flex-row justify-center align-middle center'>
           <img src={src} alt="Your Image" className='w-32 h-32 justify-self-center participant-img' />
           <div className='flex flex-col ml-4'>
-            <p className='text-base md:text-xl lg:text-3xl'>{name}</p>
+            <p className='text-base md:text-xl lg:text-3xl uppercase'>{name}</p>
             <p className='text-base md:text-xl lg:text-xl'>{title}</p>
           </div>
         </div>

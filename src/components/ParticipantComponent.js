@@ -18,7 +18,7 @@ function ParticipantComponent() {
 
     <ParticipantItem  src={samir} name='Samir Cəfərov' title='xalq artisti' about='19 noyabr 1976-cı ildə Naxçıvan MSSR, Babək rayonunun Nehrəm kəndində anadan olmuşdur. 1993–1997-ci illər ərzində Azərbaycan Dövlət Mədəniyyət və İncəsənət Universitetində teatr və kino sənəti ixtisası üzrə, 1999–2001-ci illərdə Bakı Musiqi Akademiyasında solo oxuma ixtisası üzrə təhsil almışdır. Azərbaycan Dövlət Akademik Opera və Balet Teatrın solistidir. 2001-ci ildə Almatında keçirilən Vokalçıların Beynalxalq Müsabiqəsinin laureatı olmuşdur. 2002-ci ildə Moskva şəhərində "Qalina Vişnevskayanın Opera Mərkəzi"ndə təhsil almışdır. 2017-ci ildə Gəncə Dövlət Filarmoniyasının direktoru təyin edilib.'/>
     <Link to='/participants'>
-       <p className='w-40  glass h-10 flex justify-center pt-1 diger' > <span>Digər İştirakçılar</span> </p>
+       <p className='w-40  glass h-10 flex justify-center pt-1 scaling' > <span>Digər İştirakçılar</span> </p>
  </Link>
     </div>
   )

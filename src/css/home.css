@@ -384,6 +384,23 @@ width: 80%;}
   align-items: center;
 }
 
+.preloader{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.preloader-img{
+  position: relative;
+  top:200px;
+  justify-self: center;
+  height: 200px;
+  width: 200px;
+}
+
 @media screen and (min-width: 450px){
   .hero-title{
     font-size: 3rem;

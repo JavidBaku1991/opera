@@ -14,31 +14,14 @@ import CloseIcon from '@mui/icons-material/Close';
 
 
 function Navbar() {
-  const [scrolling, setScrolling] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
 
 
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolling(true);
-      } else {
-        setScrolling(false);
-      }
-    };
-
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
  const Upbar=()=>{
   return (
-    <div className={`navbar ${scrolling ? 'scrolled' : ''} glass w-screen`}>
+    <div className={`navbar  glass w-screen`}>
       <div className='flex items-center '>
         <div className='flex justify-center items-center w-20 h-20 -mt-1'>
           <Link to='/opera'>

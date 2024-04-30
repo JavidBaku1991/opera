@@ -21,6 +21,7 @@ import karmen12 from '../images/karmen/karmen12.jpg'
 import karmen13 from '../images/karmen/karmen13.jpg'
 import karmen14 from '../images/karmen/karmen14.jpg'
 import karmen15 from '../images/karmen/karmen15.jpg'
+import filarkons from '../images/karmen/filarkons.png'
 
 
 
@@ -115,6 +116,10 @@ const itemData = [
   },
   {
     img:photo1,
+    title: 'Books',
+  },
+  {
+    img:filarkons,
     title: 'Books',
   },
   

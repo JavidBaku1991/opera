@@ -1,21 +1,16 @@
-.navbar {
+.navbar{
   height: 12vh;
   width: 100vw;
-  background-color: white;
+  background-color:antiquewhite;
+  border-radius: 0%;
   display: flex;
   z-index: 1000;
-  position: absolute;
-  transition: background-color 0.4s, transform 0.4s; /* Added transform for hardware acceleration */
+transition: all .6s;
+position: fixed;
+
 }
 
-.navbar.scrolled {
-  background-color: transparent;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 80px;
-  transform: translateY(0); /* Hardware accelerated transform */
-}
+
 
 
 

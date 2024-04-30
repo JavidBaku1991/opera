@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import AboutFestival from '../components/AboutFestival'
 function Festival() {
   return (
-    <div>
+    <div  className='festival-container'>
       <Navbar />
         <AboutFestival />
       <Footer />

@@ -37,7 +37,7 @@
     
     height: 100vh;
     object-fit: cover; /* Ensure the video covers the entire container */
-    filter: brightness(30%);
+    filter: brightness(60%);
 
   }
 

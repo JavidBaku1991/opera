@@ -1,13 +1,12 @@
 import React from 'react'
 import karmen from '../images/uzunkarmen.jpg'
-import FramerMotion from '../customHooks/FramerMotion'
 
 function AboutFestival() {
   return (
-    <div className='festival-container  '>
-            <img  src={karmen} className='w-7/8  mt-1 karmen' />
+    <div className=' p-14'>
+            <img  src={karmen} className='w-6/8    karmen' />
  
-            <h1 className='ml-10 mt-10 festival-title text-3xl'>FESTiVAL HAQQINDA</h1>
+            <h1 className='ml-10 mt-10 festival-title text-3xl  text-white'>FESTiVAL HAQQINDA</h1>
            
                      <p className=' w-9/12 glass m-10 mb-2  p-2 festival-text text-xl leading-10' >Aprelin 27-dən mayın 3-dək Azərbaycan Mədəniyyət Nazirliyi və Dövlət Opera və Balet Teatrının dəstəyi, Xalq Artisti Fidan Hacıyevanın Musiqili Vokal Məktəbinin təşkilatçılığı ilə Fidan Hacıyeva adına I Beynəlxalq Opera Festivalı keçiriləcək.
 

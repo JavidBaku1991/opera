@@ -100,7 +100,11 @@ export default function Participants() {
         <br/>
         <br/>
         <br/>
-      <ContactLine title='Bütün iştirakçılar'/>
+        <br/>
+        <br/>
+      <ContactLine title='Bütün iştirakçılar'  />
+      <br/>
+        <br/>
           <div className='m-2 flex flex-col '>
                     <ParticipantsMainItem  name='AZƏR ZEYNALOV' title='xalq artisti' src={azer} about={azerP} />
                     <ParticipantsMainItem  name='SAMİR CƏFƏROV' title='xalq artisti' src={samir} about={samirP} />

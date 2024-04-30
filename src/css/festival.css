@@ -10,9 +10,10 @@
     transition: .7s linear;
     cursor: pointer;
     box-shadow: -1px 2px 9px 5px rgba(255,255,255,0.75);
-    -webkit-box-shadow: -1px 2px 9px 5px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -1px 2px 9px 5px rgba(24, 14, 14, 0.75);
     -moz-box-shadow: -1px 2px 9px 5px rgba(255,255,255,0.75);
-
+    position: relative;
+    top:20px;
   }
   .karmen:hover {
     --_i: 10%;
@@ -20,8 +21,8 @@
   }
 
   .festival-container {
- 
-    background-image: url('../images/gencefilar.jpg'); 
+    
+    background-image: url('../images/karmen/karmen9.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -31,7 +32,7 @@
 
 .festival-title{
     /* font-size: xx-large; */
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(255, 255, 255);
     width: 300px;
 }
 

@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/opera/static/css/main.ec9cb573.css",
-    "main.js": "/opera/static/js/main.aafb493f.js",
+    "main.css": "/opera/static/css/main.473aaaf1.css",
+    "main.js": "/opera/static/js/main.c2f562da.js",
     "static/js/903.a025ce98.chunk.js": "/opera/static/js/903.a025ce98.chunk.js",
     "static/js/324.2e8a7c09.chunk.js": "/opera/static/js/324.2e8a7c09.chunk.js",
-    "static/js/950.4f2482a4.chunk.js": "/opera/static/js/950.4f2482a4.chunk.js",
+    "static/js/950.386ba396.chunk.js": "/opera/static/js/950.386ba396.chunk.js",
     "static/js/580.9246a16f.chunk.js": "/opera/static/js/580.9246a16f.chunk.js",
     "static/media/video1.mp4": "/opera/static/media/video1.9a63207fa47aee75ca9d.mp4",
     "static/media/operabalet.jpg": "/opera/static/media/operabalet.48b2d4e062574eec507f.jpg",
@@ -52,15 +52,15 @@
     "static/media/ferid.jpg": "/opera/static/media/ferid.bc147db4da89381200e4.jpg",
     "static/media/mugam.png": "/opera/static/media/mugam.57dc772d8cc71a0efabf.png",
     "index.html": "/opera/index.html",
-    "main.ec9cb573.css.map": "/opera/static/css/main.ec9cb573.css.map",
-    "main.aafb493f.js.map": "/opera/static/js/main.aafb493f.js.map",
+    "main.473aaaf1.css.map": "/opera/static/css/main.473aaaf1.css.map",
+    "main.c2f562da.js.map": "/opera/static/js/main.c2f562da.js.map",
     "903.a025ce98.chunk.js.map": "/opera/static/js/903.a025ce98.chunk.js.map",
     "324.2e8a7c09.chunk.js.map": "/opera/static/js/324.2e8a7c09.chunk.js.map",
-    "950.4f2482a4.chunk.js.map": "/opera/static/js/950.4f2482a4.chunk.js.map",
+    "950.386ba396.chunk.js.map": "/opera/static/js/950.386ba396.chunk.js.map",
     "580.9246a16f.chunk.js.map": "/opera/static/js/580.9246a16f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec9cb573.css",
-    "static/js/main.aafb493f.js"
+    "static/css/main.473aaaf1.css",
+    "static/js/main.c2f562da.js"
   ]
 }

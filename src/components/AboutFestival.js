@@ -6,9 +6,9 @@ function AboutFestival() {
     <div className=' p-14'>
             <img  src={karmen} className='w-6/8    karmen' />
  
-            <h1 className='ml-10 mt-10 festival-title text-3xl  text-white'>FESTiVAL HAQQINDA</h1>
+            <h1 className='ml-1 mt-10 festival-title text-3xl  text-white'>FESTiVAL HAQQINDA</h1>
            
-                     <p className=' w-9/12 glass m-10 mb-2  p-2 festival-text text-xl leading-10' >Aprelin 27-dən mayın 3-dək Azərbaycan Mədəniyyət Nazirliyi və Dövlət Opera və Balet Teatrının dəstəyi, Xalq Artisti Fidan Hacıyevanın Musiqili Vokal Məktəbinin təşkilatçılığı ilə Fidan Hacıyeva adına I Beynəlxalq Opera Festivalı keçiriləcək.
+                     <p className='  glass m-1 mb-2  p-2 festival-text text-xl leading-10' >Aprelin 27-dən mayın 3-dək Azərbaycan Mədəniyyət Nazirliyi və Dövlət Opera və Balet Teatrının dəstəyi, Xalq Artisti Fidan Hacıyevanın Musiqili Vokal Məktəbinin təşkilatçılığı ilə Fidan Hacıyeva adına I Beynəlxalq Opera Festivalı keçiriləcək.
 
 Genişmiqyaslı festivalın keçirilməsi klassik sənətsevərlər üçün böyük musiqi bayramı olacaq. Yeddi gün ərzində müxtəlif konsert məkanlarında Azərbaycan klassiklərinin və dünya bəstəkarlarının əsərləri təqdim olunacaq. Layihənin əsas məqsədi Azərbaycanda klassik musiqinin təbliği və inkişafı, opera sahəsində yeni istedadların üzə çıxarılması və dəstəklənməsidir.
 

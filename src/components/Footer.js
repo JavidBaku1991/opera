@@ -38,7 +38,8 @@ const Footer = () => {
                         }} >
                         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} className='mr-14 '>
                             <h3 className='footer-info'><PhoneAndroidIcon className='footer-icon' />+(994)50 510 30 20 </h3>
-                            <h3 className='footer-info'> <MarkEmailReadIcon className='footer-icon' /> opera.festivalaz@mail.ru </h3>
+                            <h3 className='footer-info'> <MarkEmailReadIcon className='footer-icon' /> opera.festivalaz@mail.ru </h3> 
+                            {/* fidancharlie2024 */}
                             <h3 className='footer-info'> <HomeIcon className='footer-icon' /> Şəmsi Bədəlbəyli küçəsi , 106 </h3>
                         </Box>
                     </FramerMotion>

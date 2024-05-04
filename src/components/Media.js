@@ -14,9 +14,9 @@ function Media() {
 
  
   return (
-    <div className='h-screen w-screen flex flex-col justify-center align-middle '>
+    <div className='h-screen w-screen flex flex-col justify-center align-middle  '>
       <ContactLine title='MEDİA XƏBƏRLƏRİ' />
-      <div className='mt-6'>
+      <div className='mt-6 flex justify-center align-middle'>
         <Splide
           aria-label='My Favorite Images'
           options={{

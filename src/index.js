@@ -20,7 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Suspense fallback={<Preloader />}>
       <Router>
         <Routes>
-          <Route path="/opera" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/participants" element={<Participants />} />
           <Route path="/festival" element={<Festival />} />
           <Route path="/photos" element={<Photo />} />

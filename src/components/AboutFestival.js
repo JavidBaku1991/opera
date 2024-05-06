@@ -4,7 +4,7 @@ import karmen from '../images/uzunkarmen.jpg'
 function AboutFestival() {
   return (
     <div className=' p-14'>
-            <img  src={karmen} className='w-6/8    karmen' />
+            <img  src={karmen} className='    karmen' />
  
             <h1 className='ml-1 mt-10 festival-title text-3xl  text-white'>FESTiVAL HAQQINDA</h1>
            

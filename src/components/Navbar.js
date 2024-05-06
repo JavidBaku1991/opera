@@ -21,7 +21,7 @@ function Navbar() {
 
  const Upbar=()=>{
   return (
-    <div className={`navbar  glass w-screen`}>
+    <div className={`navbar   w-screen`}>
       <div className='flex items-center '>
         <div className='flex justify-center items-center w-20 h-20 -mt-1'>
           <Link to='/opera'>
@@ -30,7 +30,7 @@ function Navbar() {
         </div>
         <div className='navbar-links flex flex-row justify-around w-2/3'>
         
-          <Link to='/opera' className='navbar-link'>
+          <Link to='/' className='navbar-link'>
             Ana səhifə
           </Link>
             <Link to='/festival' className='navbar-link'>
@@ -71,7 +71,7 @@ function Navbar() {
     <div className='sidebar  flex flex-col justify-center text-3xl glass'>
 
       <img src={logo} className='w-24'/>
-    <Link to='/opera' className='upbar-link' onClick={() => setOpenMenu(false)} >
+    <Link to='/' className='upbar-link' onClick={() => setOpenMenu(false)} >
       Ana səhifə
     </Link>
     <Link to='/festival' className='upbar-link' onClick={() => setOpenMenu(false)} >

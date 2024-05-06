@@ -15,6 +15,8 @@ import inare from '../images/vokalistler/inara.jpg'
 import anton from '../images/vokalistler/anton.jpg'
 import feride from '../images/vokalistler/feride.jpg'
 import anar from '../images/vokalistler/anar.jpg'
+import georgi from '../images/vokalistler/georgi.jpg'
+import vasya from '../images/vokalistler/vasya.jpg'
 
 
 import ParticipantsMainItem from '../components/ParticipantsMainItem'
@@ -93,6 +95,25 @@ Azərbaycan Milli Konservatoriyasının "milli vokal" kafedrasının baş müəl
 Hərbi xidmətdə olub, ailəlidir, 3 övladı var
 </p>
 
+
+const vasyaP = <p>
+  Vyaçeslav Vasiliev 1989-cu ildə Krasnoyarsk diyarında anadan olub. 2017-ci ildə Sankt-Peterburq Dövlət Konservatoriyasını bitirib. N. A. Rimski-Korsakov (Nadejda Drozdova-Vayner sinfi).
+
+2016-2023-cü illərdə Mariinski Teatrının Primorski səhnəsinin opera truppasının solisti olub. 2023-cü ilin aprelindən Mariinski Teatrının Sankt-Peterburq Opera Şirkətinin solisti və Primorski səhnəsində qonaq solistidir.
+
+2017-ci ildə Krımda keçirilən Birinci Beynəlxalq Avrasiya Yüksək Klassik Festivalında, sonra isə “Monte Karlo Operasında Rusiyadan olan Gənc Opera İfaçıları Akademiyası” layihəsində iştirak edib, burada müğənnilər Roberto Alagna və Xose vandan ustad dərsləri alıb. Dam, dirijor Jacques Lacombe, rejissor və xoreoqraf Adriano Sinivia və bir çox başqaları.
+
+2018-ci ildə Sankt-Peterburq Mariinski səhnəsində "Traviata"da Georges Germont rolunu ifa edərək debüt etdi.
+
+2019-cu ilin may ayında o, Valeri Gergiyevin rəhbərliyi altında Qriqori Qryaznı oxuyaraq Moskvanın Zaryadye konsert salonunda və Mariinski-2-də “Çar gəlini”nin (Vyaçeslav Starodubtsev tərəfindən səhnələşdirilən) qastrol tamaşalarında iştirak edib.
+2019-cu ilin noyabrında “Primorski səhnəsi” truppasının tərkibində Buryat adına Dövlət Akademik Opera və Balet Teatrında çıxış edib. G. Tsydynzhapova, Lord Henry Ashton ("Lucia di Lammermoor"un konsertində) və Qriqori Qryaznı oxuyur.
+</p>
+
+const georgiP = <p>
+Giorgi Çelidze Tiflis Opera Teatrında Donizettinin 'L'elisir d'amore' əsərində Dulcamara partiyasını oxuyaraq debüt etmişdir.
+2018-ci ildən Giorgi Bolşoy Teatrının Gənc Rəssam Proqramının üzvüdür və burada proqramın rəhbəri professor Dmitri Vdovin və Makvala Kasraşvili və Svetlana Nesterenko kimi digər görkəmli məşqçilərlə vokal təhsilini davam etdirir.
+</p>
+
 export default function Participants() {
   return (
     <div className='participants-main-container flex flex-col'>
@@ -106,7 +127,10 @@ export default function Participants() {
       <br/>
         <br/>
           <div className='m-2 flex flex-col '>
-                    <ParticipantsMainItem  name='AZƏR ZEYNALOV' title='xalq artisti' src={azer} about={azerP} />
+                       <ParticipantsMainItem  name='Georgi Çelidze (Gürcüstan)'  title='bas' src={georgi} about={anarP} />
+                       <ParticipantsMainItem  name=' Vyaçeslav Vasiliev  (Rusiya)'  title='bariton' src={vasya} about={vasyaP} />
+
+                <ParticipantsMainItem  name='AZƏR ZEYNALOV' title='xalq artisti' src={azer} about={azerP} />
                     <ParticipantsMainItem  name='SAMİR CƏFƏROV' title='xalq artisti' src={samir} about={samirP} />
                     <ParticipantsMainItem  name='GÜLNAZ İSMAYILOVA' title='xalq artisti' src={gulnaz} about={gulnazP} />
                     <ParticipantsMainItem  name='Fidan Hacıyeva' title='xalq artisti' src={fidan} about={fidanP} />

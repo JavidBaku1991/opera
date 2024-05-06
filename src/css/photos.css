@@ -6,6 +6,10 @@
 
 }
 
+.photos-container:hover{
+    
+}
+
 .photo{
     transition: all .7s;
 }

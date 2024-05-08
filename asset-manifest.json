@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d41fe36.css",
-    "main.js": "/static/js/main.bd6f2eb5.js",
+    "main.css": "/static/css/main.3dcf904e.css",
+    "main.js": "/static/js/main.9bb19fb4.js",
     "static/js/903.a025ce98.chunk.js": "/static/js/903.a025ce98.chunk.js",
-    "static/js/324.2e8a7c09.chunk.js": "/static/js/324.2e8a7c09.chunk.js",
-    "static/js/950.386ba396.chunk.js": "/static/js/950.386ba396.chunk.js",
+    "static/js/92.05f3860e.chunk.js": "/static/js/92.05f3860e.chunk.js",
+    "static/js/983.317fe626.chunk.js": "/static/js/983.317fe626.chunk.js",
+    "static/js/676.e86c0b4e.chunk.js": "/static/js/676.e86c0b4e.chunk.js",
     "static/js/580.9246a16f.chunk.js": "/static/js/580.9246a16f.chunk.js",
-    "static/media/video1.mp4": "/static/media/video1.9a63207fa47aee75ca9d.mp4",
+    "static/media/video1.mp4": "/static/media/video1.81aad8afc8e17150fa7f.mp4",
+    "static/media/mugam.JPG": "/static/media/mugam.9e1f5daaf0543c13bb0d.JPG",
     "static/media/operabalet.jpg": "/static/media/operabalet.48b2d4e062574eec507f.jpg",
     "static/media/filarkons.png": "/static/media/filarkons.3019312721a9a5d7af8e.png",
     "static/media/tedbirler.png": "/static/media/tedbirler.cf8b5718ca2e60b3d9fe.png",
@@ -47,20 +49,23 @@
     "static/media/karmen12.jpg": "/static/media/karmen12.281866003fc3850de89f.jpg",
     "static/media/karmen3.jpg": "/static/media/karmen3.2bbfd1975f69a6237304.jpg",
     "static/media/media2.jpg": "/static/media/media2.71e6fa7f5295d4f7403a.jpg",
+    "static/media/vasya.jpg": "/static/media/vasya.868981122a79a992d9e6.jpg",
     "static/media/gulnaz.jpg": "/static/media/gulnaz.e05aeb4c13b38d668997.jpg",
     "static/media/ramil.jpg": "/static/media/ramil.3cb4c280498f54e43857.jpg",
     "static/media/ferid.jpg": "/static/media/ferid.bc147db4da89381200e4.jpg",
+    "static/media/georgi.jpg": "/static/media/georgi.bcaea9d0e0ffd1d40e27.jpg",
     "static/media/mugam.png": "/static/media/mugam.57dc772d8cc71a0efabf.png",
     "index.html": "/index.html",
-    "main.6d41fe36.css.map": "/static/css/main.6d41fe36.css.map",
-    "main.bd6f2eb5.js.map": "/static/js/main.bd6f2eb5.js.map",
+    "main.3dcf904e.css.map": "/static/css/main.3dcf904e.css.map",
+    "main.9bb19fb4.js.map": "/static/js/main.9bb19fb4.js.map",
     "903.a025ce98.chunk.js.map": "/static/js/903.a025ce98.chunk.js.map",
-    "324.2e8a7c09.chunk.js.map": "/static/js/324.2e8a7c09.chunk.js.map",
-    "950.386ba396.chunk.js.map": "/static/js/950.386ba396.chunk.js.map",
+    "92.05f3860e.chunk.js.map": "/static/js/92.05f3860e.chunk.js.map",
+    "983.317fe626.chunk.js.map": "/static/js/983.317fe626.chunk.js.map",
+    "676.e86c0b4e.chunk.js.map": "/static/js/676.e86c0b4e.chunk.js.map",
     "580.9246a16f.chunk.js.map": "/static/js/580.9246a16f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d41fe36.css",
-    "static/js/main.bd6f2eb5.js"
+    "static/css/main.3dcf904e.css",
+    "static/js/main.9bb19fb4.js"
   ]
 }

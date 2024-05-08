@@ -1,0 +1,26 @@
+.videos-container{
+        position: relative;
+        background-image: url('../images/mugam.JPG'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        filter: brightness(100%);
+        padding-top: 150px;
+        /* height: 600px; */
+        
+}
+
+.videos{
+display: flex;
+justify-content: center;
+}
+
+
+@media screen and (min-width: 640px)
+{
+.videos{
+        /* margin-left: 70px; */
+        display: none;
+}
+
+}

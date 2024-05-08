@@ -14,6 +14,7 @@ const Home = React.lazy(() => import("./pages/Home.js"));
 const Photo = React.lazy(() => import("./components/Photos.js"));
 const Participants = React.lazy(() => import("./pages/Participants.js"));
 const Festival = React.lazy(() => import("./pages/Festival.js"));
+const Videos = React.lazy(() => import("./pages/Videos.js"));
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <HashRouter>
@@ -25,6 +26,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/participants" element={<Participants />}exact />
           <Route path="/festival" element={<Festival />} exact/>
           <Route path="/photos" element={<Photo />} exact/>
+          <Route path="/videos" element={<Videos />} exact/>
         </Routes>
     </Suspense>
   </HashRouter>

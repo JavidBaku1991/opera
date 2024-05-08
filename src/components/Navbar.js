@@ -24,7 +24,7 @@ function Navbar() {
     <div className={`navbar   w-screen`}>
       <div className='flex items-center '>
         <div className='flex justify-center items-center w-20 h-20 -mt-1'>
-          <Link to='/opera'>
+          <Link to='/'>
             <img src={logo} alt='Logo' className='logo'/>
           </Link>
         </div>
@@ -41,6 +41,9 @@ function Navbar() {
           </Link>
           <Link to='/participants' className='navbar-link'>
             İştirakçılar
+          </Link>
+          <Link to='/videos'  className='navbar-link'>
+            Videolar
           </Link>
         </div>
     
@@ -83,6 +86,9 @@ function Navbar() {
     </Link>
     <Link to='/participants' className='upbar-link' onClick={() => setOpenMenu(false)} >
       İştirakçılar
+    </Link>
+    <Link to='/videos' className='upbar-link' onClick={() => setOpenMenu(false)} >
+      Videolar
     </Link>
   </div>
   )

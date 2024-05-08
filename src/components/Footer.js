@@ -22,8 +22,8 @@ const Footer = () => {
                             hidden: { opacity: 0, x: -50 },
                             visible: { opacity: 1, x: 0 },
                         }} >
-                        <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap', maxWidth: '500px', margin: '20px auto' }} className='footer-info-container'>
-                            <Link to='https://culture.gov.az/'> <img src={mtn} className='w-24 mt-2 mx-2' alt='Mtn' /> </Link>
+                        <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap', maxWidth: '500px', margin: '20px 80px',gap:'10px' }} className='footer-info-container'>
+                            {/* <Link to='https://culture.gov.az/'> <img src={mtn} className='w-24 mt-2 mx-2' alt='Mtn' /> </Link> */}
                             <Link to='http://www.philharmonichall.az/'> <img src={filar} className='w-24 mt-2 mx-2' alt='Filar' /> </Link>
                             <Link to='https://icm.az/'> <img src={mugam} className='w-16 mt-2 mx-2' alt='Mugam' /> </Link>
                             <Link to='https://www.facebook.com/search/top?q=fidan%20hac%C4%B1yevan%C4%B1n%20vokal%20musiqi%20m%C9%99kt%C9%99bi'> <img src={mekteb} className='h-24 w-24 mt-[-4] mx-2' alt='Mekteb' /> </Link>

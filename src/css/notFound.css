@@ -1,0 +1,17 @@
+.not-found{
+    background-image: url('../images/karmen/karmen7.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found-title{
+  
+    color: rgb(241, 241, 91);
+    font-size: 4rem;
+    text-decoration: underline;
+}

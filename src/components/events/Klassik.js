@@ -77,7 +77,12 @@ const Klassik =() =>{
   return (  
     <div className='photos-container'>
           <Navbar />
-    <Box className='photoslist-container p-16 pt-28 ' >
+    <Box 
+       sx={{
+        p: { xs: 2, sm: 4 }, // Responsive padding: 2 (8px) on xs screens, 16 (64px) on sm and up screens
+        pt: { xs: 2, sm: 16} // Responsive padding top: 2 (8px) on xs screens, 28 (112px) on sm and up screens
+    }}
+    >
           <Box className='hero-photos' sx={{scrollbarWidth:'none'}}>
       <ImageList variant="masonry" cols={screenWidth?3:2} gap={20}>
         {itemData.map((item) => (

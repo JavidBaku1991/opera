@@ -1,115 +1,140 @@
-.navbar{
+.navbar {
   height: 12vh;
   width: 100vw;
-  background-color:rgb(255, 255, 255);
-  border-radius: 0%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0;
   display: flex;
   z-index: 1000;
-transition: all .6s;
-position: fixed;
-
+  transition: all 0.6s;
+  position: fixed;
+  top: 0; /* Ensure the navbar is fixed at the top */
+  left: 0; /* Ensure the navbar starts from the left edge */
+  right: 0; /* Ensure the navbar spans the entire width */
 }
 
-
-
-
-
-
-.icon{
+/* Icon Styles */
+.icon {
   color: black;
   transition: all 1s;
 }
 
-
-.icon:hover{
+.icon:hover {
   transform: scale(1.2);
 }
 
-.logo{
-    margin-right: 40px;
-  z-index: 9;
-    width: 7vw;
-    z-index: 1000;
-    transition: all 1s;
-    animation: scale 1s infinite alternate; 
-
+/* Logo Styles */
+.logo {
+  margin-right: 40px;
+  width: 7vw;
+  z-index: 1000;
+  transition: all 1s;
+  animation: scale 1s infinite alternate;
 }
 
-
-.logo:hover{
+.logo:hover {
   transform: scale(1.05);
 }
 
-
-.navbar-links{
+/* Navbar Links Container */
+.navbar-links {
   width: 70%;
+  display: flex; /* Ensure the links are aligned horizontally */
+  justify-content: space-around; /* Distribute links evenly */
+  align-items: center; /* Center links vertically */
 }
 
-
-.navbar-link{
-    width: 170px;
-    margin: auto;
-    color: black;
-    font-size: large;
-    height: 30px;
-    background-color: transparent;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    padding: 6px;
-    transition: all .4;
-    text-shadow: -5px 2px 8px rgba(255,255,255,0.85);
-    transition: all .3s;
-    font-family: 'Oswald',sans-serif;
-
-
+/* Individual Navbar Links */
+.navbar-link {
+  width: 170px;
+  margin: auto;
+  color: black;
+  font-size: large;
+  height: 30px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  transition: all 0.4s;
+  text-shadow: -5px 2px 8px rgba(255, 255, 255, 0.85);
+  font-family: 'Oswald', sans-serif;
 }
 
-.navbar-link:hover{
-  text-shadow: -5px 2px 18px rgba(255,255,255,0.85);
+.navbar-link:hover {
+  text-shadow: -5px 2px 18px rgba(255, 255, 255, 0.85);
   transform: scale(1.2);
-
 }
 
-.social-icons{
+/* Social Icons Container */
+.social-icons {
   z-index: 100;
   width: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: transparent;
-
 }
 
-
-.sidebar{
+/* Sidebar Styles */
+.sidebar {
   width: 100vw;
   height: 100vh;
-  align-items: center;
+  display: flex;
+  flex-direction: column; /* Ensure items are stacked vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
   gap: 30px;
   background: rgba(255, 255, 255, 0.48);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.5px);
   -webkit-backdrop-filter: blur(6.5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
-
-.upbar-link{
-  transition: all .6s;
+/* Upbar Link Styles */
+.upbar-link {
+  transition: all 0.6s;
 }
 
-.upbar-link:hover{
-    transform: scale(1.05);
+.upbar-link:hover {
+  transform: scale(1.05);
 }
 
-
-
+/* Keyframes for Logo Animation */
 @keyframes scale {
   0% {
-      transform: scale(1);
+    transform: scale(1);
   }
   100% {
-      transform: scale(1.1);
+    transform: scale(1.1);
   }
+}
+
+/* Ensure transition prefixes for cross-browser compatibility */
+.navbar,
+.icon,
+.logo,
+.navbar-link,
+.upbar-link {
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+/* Ensure transform prefixes for cross-browser compatibility */
+.icon:hover,
+.logo:hover,
+.navbar-link:hover,
+.upbar-link:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }

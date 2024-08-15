@@ -14,9 +14,10 @@ import ParticipantComponent from '../components/ParticipantComponent.js';
 
 const Home = () => {
   return (
-
+    <div>
+       <Navbar />
     <div className='home-container'>
-      <Navbar />
+    
      <section   className='hero-video-container ' >
           <div>
                 <video autoPlay loop muted>
@@ -43,6 +44,8 @@ const Home = () => {
     <Footer />
     </div>
 
+    </div>
+ 
    
   );
 };

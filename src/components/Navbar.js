@@ -24,8 +24,8 @@ function Navbar() {
 
  const Upbar=()=>{
   return (
-    <div className={`navbar   w-screen`}>
-      <div className='flex items-center '>
+    <div className='navbar    flex flex-row'>
+      <div className=' flex flex-row'>
         <div className='flex justify-center items-center w-20 h-20 -mt-1'>
           <Link to='/'>
             <img src={logo} alt='Logo' className='logo'/>

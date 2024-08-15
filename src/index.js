@@ -15,6 +15,7 @@ const Photo = React.lazy(() => import("./components/Photos.js"));
 const Participants = React.lazy(() => import("./pages/Participants.js"));
 const Festival = React.lazy(() => import("./pages/Festival.js"));
 const Videos = React.lazy(() => import("./pages/Videos.js"));
+const MediaPage = React.lazy(() => import("./pages/MediaPage.js"));
 const Karmen =React.lazy(()=>import("./components/events/Karmen.js"))
 const OperaUlduzlari =React.lazy(()=>import("./components/events/OperaUlduzlari.js"))
 const GeleceyinUlduzlari =React.lazy(()=>import("./components/events/GeleceyinUlduzlari.js"))
@@ -31,6 +32,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/" element={<Home />}exact />
           <Route path="/participants" element={<Participants />}exact />
           <Route path="/festival" element={<Festival />} exact/>
+          <Route path="/media" element={<MediaPage />} exact/>
 
 
           <Route path="/photos" element={<Photo />} exact>

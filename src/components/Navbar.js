@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import LocalPostOfficeIcon from '@mui/icons-material/LocalPostOffice';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -28,7 +27,7 @@ function Navbar() {
             <img src={logo} alt='Logo' className='logo'/>
           </Link>
         </div>
-        <div className='navbar-links flex flex-row justify-around w-2/3'>
+        <div className='navbar-links flex flex-row justify-around '>
         
           <Link to='/' className='navbar-link'>
             Ana səhifə
@@ -41,6 +40,9 @@ function Navbar() {
           </Link>
           <Link to='/participants' className='navbar-link'>
             İştirakçılar
+          </Link>
+          <Link to='/media' className='navbar-link'>
+            Media xəbərləri
           </Link>
           <Link to='/videos'  className='navbar-link'>
             Videolar
@@ -86,6 +88,9 @@ function Navbar() {
     </Link>
     <Link to='/participants' className='upbar-link' onClick={() => setOpenMenu(false)} >
       İştirakçılar
+    </Link>
+    <Link to='/media' className='upbar-link' onClick={() => setOpenMenu(false)} >
+      Media Xəbərləri
     </Link>
     <Link to='/videos' className='upbar-link' onClick={() => setOpenMenu(false)} >
       Videolar

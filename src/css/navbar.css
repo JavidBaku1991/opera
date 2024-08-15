@@ -41,7 +41,9 @@ position: fixed;
 }
 
 
-
+.navbar-links{
+  width: 70%;
+}
 
 
 .navbar-link{
@@ -54,7 +56,7 @@ position: fixed;
     justify-content: center;
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 6px;
     transition: all .4;
     text-shadow: -5px 2px 8px rgba(255,255,255,0.85);
     transition: all .3s;
@@ -71,7 +73,7 @@ position: fixed;
 
 .social-icons{
   z-index: 100;
-  width: 40vw;
+  width: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;

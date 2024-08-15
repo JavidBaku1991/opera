@@ -24,7 +24,31 @@ function Festival() {
             <YouTubePlayer youtubeLink='3o62NxNVEuo' 
              />
           </div>
-          {/* Add more YouTubePlayer components as needed */}
+          <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex justify-center'>
+            <YouTubePlayer youtubeLink='UiRfyR7aiNU' 
+             />
+          </div>
+          <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex justify-center'>
+            <YouTubePlayer youtubeLink='ZdmRqcXIIK0' 
+             />
+          </div>
+          <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex justify-center'>
+            <YouTubePlayer youtubeLink='Uo3IkMUTfv0' 
+             />
+          </div>
+          <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex justify-center'>
+            <YouTubePlayer youtubeLink='xVYIYXuW1l8' 
+             />
+          </div>
+          <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex justify-center'>
+            <YouTubePlayer youtubeLink='DDN1NVKl0wQ' 
+             />
+          </div>
+          <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex justify-center'>
+            <YouTubePlayer youtubeLink='xi65YiAvUH0' 
+             />
+          </div>
+          
         </div>
       </div>
       <Footer />

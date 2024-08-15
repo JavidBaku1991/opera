@@ -6,7 +6,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import { Button } from '@mui/material';
 import logo from '../images/logo.png';
-
+import { useLocation } from 'react-router-dom';
 
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -16,7 +16,11 @@ function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
 
-
+  const location = useLocation();
+  
+  useEffect(() => {
+    setOpenMenu(false); 
+  }, [location]);
 
  const Upbar=()=>{
   return (

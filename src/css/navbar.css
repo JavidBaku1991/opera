@@ -140,3 +140,14 @@
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
+
+.close-button{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  transition: all .5s ease-in-out;
+}
+
+.close-button:hover{
+  transform: scale(1.14);
+}

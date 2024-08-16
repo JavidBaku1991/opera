@@ -116,8 +116,10 @@ Giorgi Çelidze Tiflis Opera Teatrında Donizettinin 'L'elisir d'amore' əsərin
 
 export default function Participants() {
   return (
-    <div className='participants-main-container flex flex-col'>
+     <div>
       <Navbar />
+    <div className='participants-main-container flex flex-col'>
+     
         <br/>
         <br/>
         <br/>
@@ -147,5 +149,6 @@ export default function Participants() {
           <Email />
       <Footer />
     </div>
+     </div>
   )
 }

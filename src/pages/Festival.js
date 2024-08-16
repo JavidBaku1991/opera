@@ -4,12 +4,16 @@ import Footer from '../components/Footer'
 import AboutFestival from '../components/AboutFestival'
 function Festival() {
   return (
-    <div  className='festival-container'>
+    <div>
       <Navbar />
+
+    <div  className='festival-container'>
         <AboutFestival />
       <Footer />
 
     </div>
+    </div>
+    
   )
 }
 

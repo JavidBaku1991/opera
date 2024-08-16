@@ -53,9 +53,10 @@ function Navbar() {
 
   const SidebarMenu = () => {
     return (
-      <div className='sidebar flex flex-col justify-center text-3xl glass'>
+      <div className='sidebar  justify-center text-3xl glass'>
+        <CloseIcon className='close-button' onClick={toggleMenu} />
         <img src={logo} className='w-24' alt="Logo" />
-        <ul>
+        <ul className='flex flex-col gap-8' >
           <li><Link to='/' className='upbar-link' onClick={() => setOpenMenu(false)}>Ana səhifə</Link></li>
           <li><Link to='/festival' className='upbar-link' onClick={() => setOpenMenu(false)}>Festival</Link></li>
           <li><Link to='/photos' className='upbar-link' onClick={() => setOpenMenu(false)}>Fotolar</Link></li>
@@ -94,7 +95,7 @@ function Navbar() {
     return (
       <div className='menu-open-icon-div'>
         <Button onClick={toggleMenu} className='menu-open-icon'>
-          {openMenu ? <CloseIcon /> : <MenuIcon />}
+          {openMenu ? <CloseIcon  /> : <MenuIcon />}
         </Button>
       </div>
     );
